@@ -1,0 +1,281 @@
+header {
+    height: 110px;
+    width: 100%;
+    max-width: 100%;
+    position: fixed;
+    top: 0;
+    display: flex;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    overflow: hidden;
+    z-index: 1;
+}
+
+header ul {
+    padding-right: 40px;
+}
+
+header li {
+    margin: 0 15px;
+}
+
+ul {
+    text-decoration: none;
+}
+
+li {
+    text-decoration: none;
+    display: inline-block;
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    font-size: 24px;}
+
+.upcoming{display:flex;
+    align-items:baseline;
+    background-color:#355E3B;
+    height: 200px;
+}
+
+.heroGroup{display:flex;
+    background-image:url(https://www.wallpaperflare.com/static/867/967/692/landscape-drone-aerial-view-forest-wallpaper.jpg);
+    height:80vh;
+    background-repeat: no-repeat;
+    flex-direction:column;
+    justify-content: center;
+}
+
+h2, h9{color:white;
+    font-size:48px;
+    font-family:'Lilita One', cursive;
+    padding-left:70px;
+}
+
+#heading{margin-top:90px;
+}
+
+p{font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color:white;
+    padding-left:70px;
+    margin-top:0ch}
+
+button{background-color: #B26466;
+    color:white;
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+  height: 50px;
+  line-height: 44px;
+  padding: 0px 20px;
+  border-radius: 999em;
+  text-decoration: none;
+  font-size: 16px;
+  white-space: nowrap;
+  text-align:center;
+}
+
+.button{padding-left:70px;
+}
+
+#details{display:flex;
+flex-direction:row;
+background-color:#355E3B;;
+height:60vh;
+}
+
+.gap{height:10vh;
+background-color: #F5F5F5;
+}
+
+.type{display:flex;
+    flex-direction: column;
+    width:300px;
+    margin-top:20px ;
+    margin-right: 600px;}
+
+#round{height:500px;
+width:500px;
+border-radius: 50%;
+padding-right:80px;
+padding-left:30px;
+position: relative;
+bottom: calc(50vh - 60%);
+}
+
+#past{display:flex;
+flex-direction: row;
+background-color:#98AD39;
+height:70vh;
+}
+
+#pastHead{display:flex;
+    flex-direction: row;
+    background-color:#98AD39;
+    height:100px;
+    }
+
+h3{color:white;
+    font-size:48px;
+    font-family:'Lilita One', cursive;
+    padding-left:70px;
+    margin-bottom: 30px;
+}
+
+h4{color:white;
+    font-size:48px;
+    font-family:'Lilita One', cursive;
+    padding-left:10px;
+    margin-bottom: 0px;
+    }
+
+.monthCard{display:flex;
+    flex-direction:column;
+    background-color:white;
+    height:30%;
+    width:30%;
+}
+
+
+#months{display:flex;
+flex-direction: column;
+}
+
+.subH{color:black;
+font-size: 24px;
+padding-left:30px;
+}
+
+#cardSection{display:flex;
+flex-direction: row;
+background-color: #F5F5F5;
+height:60vh;
+padding-top: 200px;
+justify-content: space-around;
+}
+
+#info{margin-bottom:20px;}
+
+.roundTwo{height:150px;
+    width:150px;
+    border-radius:50%;
+    align-items: flex-end;
+    padding:0;
+}
+
+#enter{margin-top:30px;}
+
+.events{display:flex;
+    flex-direction:column;
+    background-color:white;
+    height:fit-content;
+    width:500px;
+    border-style:solid;
+    border-color:#98AD39;
+    border-width: 10px;
+    padding:0px;
+
+}
+
+#single{margin-right: 80px;}
+
+.info{color:black;
+font-size: 18px;
+padding:30px;
+}
+
+h7, h8, h5, h6{font-size:30px;
+    font-family:'Lilita One', cursive;
+   margin-left: 70px;
+   margin-top:30px;
+   margin-left:30px;
+   margin-bottom:0%;
+} 
+
+#miss{display:flex;
+flex-direction:row;
+background-color: #355E3B;
+height:30vh;
+padding-top: 100px;
+padding-right:300px;
+}
+
+#mailing{width:60%;
+}
+
+.rowItems{display:flex;
+flex-direction:row;}
+
+#signUp{display:flex;
+    flex-direction:column;
+align-items: center;}
+
+
+.foot{display:flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    background-color:#D8E1DE;
+    height:30vh
+}
+    
+#three{display:flex;
+    flex-direction:row;}
+
+    a{color:black;
+        font-family:arial;
+        font:18px;
+        padding:10px;
+        text-decoration:none;
+        width:100px;}
+
+        .popup-overlay {
+            /*Hides pop-up when there is no "active" class*/
+            visibility: hidden;
+            position: absolute;
+            background: #ffffff;
+            border: 3px solid #666666;
+            width: 50%;
+            height: 50%;
+            left: 25%;
+            border-style:solid;
+            border-width:10px;
+            border-color:#98AD39;
+          }
+          
+          .popup-overlay .active {
+            /*displays pop-up when "active" class is present*/
+            visibility: visible;
+            text-align: center;
+          }
+          
+          .popup-content {
+            /*Hides pop-up content when there is no "active" class */
+            visibility: hidden;
+          }
+          
+          .popup-content .active {
+            /*Shows pop-up content when "active" class is present */
+            visibility: visible;
+          }
+
+
+@media only screen and (max-width:600px){
+    #details{flex-direction:column;}
+    #past{flex-direction: column; margin-bottom: 350px;}
+    #pastHaed {flex-direction: column;}
+    #cardSection{flex-direction: column;}
+    #miss{flex-direction: column; height:700px; padding:0%; margin-top: 400px;justify-content: center;align-items: center;}
+    .rowItems{flex-direction: column;}
+    #three{flex-direction: column;}
+    header{display:none;}
+    .monthCard{width:100%;}
+    #round{position:static;}
+    #boy{width:100%; height:auto;}
+    #pastHead{margin-top: 300px;}
+    .events{width:96%;}
+
+}
+  
+
+  
