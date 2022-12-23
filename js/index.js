@@ -1,9 +1,11 @@
-//appends an "active" class to .popup and .popup-content when the "Open" button is clicked
+
+console.log("Your index.js file is loaded correctly!");
+
 $("#enter").on("click", function() {
-    $(".popup-overlay", "".popup-content").addClass("active");
+    $(".popup-overlay", ".popup-content").addClass("active")
   });
   
-  //removes the "active" class to .popup and .popup-content when the "Close" button is clicked 
-  $(".close", ".popup-overlay").on("click", function() {
-    $(".popup-overlay", "".popup-content").removeClass("active");
+  
+$(".close", ".popup-overlay").on("click", function() {
+    $(".popup-overlay", ".popup-content").removeClass("active")
   });
