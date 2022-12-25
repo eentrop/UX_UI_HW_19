@@ -187,7 +187,7 @@ padding:30px;
 h7, h8, h5, h6{font-size:30px;
     font-family:'Lilita One', cursive;
    margin-left: 70px;
-   margin-top:30px;
+   margin-top:40px;
    margin-left:30px;
    margin-bottom:0%;
 } 
@@ -233,7 +233,7 @@ align-items: center;}
             /*Hides pop-up when there is no "active" class*/
             visibility: hidden;
             position: absolute;
-            background: #ffffff;
+            background-color:white;
             width: 50%;
             height: 50%;
             left: 25%;
@@ -251,11 +251,19 @@ align-items: center;}
           .popup-content {
             /*Hides pop-up content when there is no "active" class */
             visibility: hidden;
+            background-color:white;
+            width: 90%;
+            height: 55%;
+            left: 25%;
+            border-style:solid;
+            border-width:10px;
+            border-color:#98AD39;
           }
           
           .popup-content .active {
             /*Shows pop-up content when "active" class is present */
             visibility: visible;
+ 
           }
 
 

@@ -1,9 +1,9 @@
 
 $("#enter").on("click", function(){
-    $(".popup-overlay", ".popup-content").addClass("active");
+    $(".popup-overlay, .popup-content").addClass("active");
   });
   
-  $(".close", ".popup-overlay").on("click", function() {
-    $(".popup-overlay", ".popup-content").removeClass("active");
+  $(".close").on("click", function() {
+    $(".popup-overlay, .popup-content").removeClass("active");
   }); 
   
